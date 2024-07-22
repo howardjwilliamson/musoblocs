@@ -9,10 +9,9 @@
   "version": "1.0.0",
   "description": "Musoblocs app.",
   "main": "index.js",
-  "homepage": "/musoblocs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build --base=/musoblocs/",
+    "build": "vite build",
     "dev": "vite",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
