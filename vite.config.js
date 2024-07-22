@@ -1,4 +1,3 @@
-export default
-{
-    base: ''
-}
+export default defineConfig({
+    base: `./`,
+});
