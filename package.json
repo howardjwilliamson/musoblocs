@@ -1,5 +1,16 @@
 {
   "dependencies": {
     "three": "^0.166.1"
-  }
+  },
+  "name": "musoblocs",
+  "version": "1.0.0",
+  "description": "Musoblocs app.",
+  "main": "./source/js/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx vite"
+  },
+  "author": "Howard Williamson",
+  "license": "ISC"
 }
