@@ -18,7 +18,7 @@ const STATUS =
     active: {color:0xff00ff}
 }
 
-const vol = .1;
+const vol = 1;
 
 class Target extends Mesh
 {

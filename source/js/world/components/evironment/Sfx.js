@@ -2,7 +2,7 @@
 
 export const Sfx = 
 {
-    "ding": { url:'../../../../../assets/audio/sfx/ding.wav', volum: 1 },
+    "ding": { url:'../../../../../resources/audio/sfx/ding.wav', volum: 1 },
 };
 
 export const PlaySfx = (url, vol, on_end) =>

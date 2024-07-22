@@ -26,6 +26,7 @@ class Recycle extends Mesh
             new TetrahedronGeometry(1, 0),
             new MeshStandardMaterial(STATUS.inactive)
         );
+        this.active = false;
         this.position.set(2, 6, 2);
         console.log("Recycle created");
         this.result = result;
@@ -33,6 +34,8 @@ class Recycle extends Mesh
 
     click()
     {
+        if (this.active) return;
+        this.active = true;
         this.position.z -= 0.1;
         this.material.color.setHex(STATUS.active.color);
         PlaySfx
@@ -40,6 +43,7 @@ class Recycle extends Mesh
             Sfx["ding"].url, 1,
             () =>
             {
+                this.active = false;
                 this.position.z += 0.1;
                 this.material.color.setHex(STATUS.inactive.color);
                 this.result();                

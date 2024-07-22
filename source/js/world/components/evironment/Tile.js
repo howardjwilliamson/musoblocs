@@ -18,7 +18,7 @@ const STATUS =
     active: {color:0xff9900}
 }
 
-const vol = .1;
+const vol = 1;
 
 class Tile extends Mesh
 {
